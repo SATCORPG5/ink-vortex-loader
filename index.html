@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
 
+<style>
+
+body{
+background:white;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+margin:0;
+overflow:hidden;
+}
+
+/* rotating ink circle */
+.enso{
+width:350px;
+animation: spin 8s linear infinite;
+transform-origin: center;
+}
+
+/* rotation */
+@keyframes spin{
+0%{
+transform: rotate(0deg);
+}
+100%{
+transform: rotate(360deg);
+}
+}
+
+</style>
+
+</head>
+
+<body>
+
+<img src="Convec (1).svg" class="enso">
+
+</body>
+</html>
